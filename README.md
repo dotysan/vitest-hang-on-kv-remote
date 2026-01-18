@@ -4,6 +4,7 @@ Reproducing bug here vitest hangs with Cloudflare KV remote bindings.
 ## Instructions
 
 Clone this repo. See the bug doesn't occur.
+1. run: `pnpm install`
 1. run: `pnpm run test`
 1. Note runtimes are immediately shut down gracefully.
 
