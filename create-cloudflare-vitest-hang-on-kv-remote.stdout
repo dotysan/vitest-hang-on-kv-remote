@@ -1,0 +1,81 @@
+
+
+👋 Welcome to create-cloudflare v2.62.2!
+🧡 Let's get started.
+
+
+╭ Create an application with Cloudflare Step 1 of 3
+│
+├ In which directory do you want to create your application?
+│ dir ./vitest-hang-on-kv-remote
+│
+├ What would you like to start with?
+│ category Hello World example
+│
+├ Which template would you like to use?
+│ type Worker only
+│
+├ Which language do you want to use?
+│ lang TypeScript
+│
+├ Copying template files
+│ files copied to project directory
+│
+├ Updating name in `package.json`
+│ updated `package.json`
+│
+╰ Application created 
+
+╭ Configuring your application for Cloudflare Step 2 of 3
+│
+├ Retrieving current workerd compatibility date
+│ compatibility date  Could not find workerd date, falling back to 2025-09-27
+│
+├ Initializing git repo
+│ initialized git
+│
+├ Committing new files
+│ git commit
+│
+╰ Application configured 
+
+╭ Deploy with Cloudflare Step 3 of 3
+│
+├ Do you want to deploy your application?
+│ no deploy via `pnpm run deploy`
+│
+╰ Done 
+
+
+🎉  SUCCESS  Application created successfully!
+
+💻 Continue Developing
+Change directories: cd vitest-hang-on-kv-remote
+Deploy: pnpm run deploy
+
+📖 Explore Documentation
+]8;;https://developers.cloudflare.com/workers\https://developers.cloudflare.com/workers]8;;\
+
+🐛 Report an Issue
+]8;;https://github.com/cloudflare/workers-sdk/issues/new/choose\https://github.com/cloudflare/workers-sdk/issues/new/choose]8;;\
+
+💬 Join our Community
+]8;;https://discord.cloudflare.com\https://discord.cloudflare.com]8;;\
+
+
+
+renamed 'vitest-hang-on-kv-remote/.git' -> './.git'
+renamed 'vitest-hang-on-kv-remote/.editorconfig' -> './.editorconfig'
+renamed 'vitest-hang-on-kv-remote/.gitignore' -> './.gitignore'
+renamed 'vitest-hang-on-kv-remote/.prettierrc' -> './.prettierrc'
+renamed 'vitest-hang-on-kv-remote/.vscode' -> './.vscode'
+renamed 'vitest-hang-on-kv-remote/node_modules' -> './node_modules'
+renamed 'vitest-hang-on-kv-remote/package.json' -> './package.json'
+renamed 'vitest-hang-on-kv-remote/pnpm-lock.yaml' -> './pnpm-lock.yaml'
+renamed 'vitest-hang-on-kv-remote/src' -> './src'
+renamed 'vitest-hang-on-kv-remote/test' -> './test'
+renamed 'vitest-hang-on-kv-remote/tsconfig.json' -> './tsconfig.json'
+renamed 'vitest-hang-on-kv-remote/vitest.config.mts' -> './vitest.config.mts'
+renamed 'vitest-hang-on-kv-remote/worker-configuration.d.ts' -> './worker-configuration.d.ts'
+renamed 'vitest-hang-on-kv-remote/wrangler.jsonc' -> './wrangler.jsonc'
+rmdir: removing directory, 'vitest-hang-on-kv-remote'
